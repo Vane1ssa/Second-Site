@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+    transition: all .3s;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+img,
+video,
+picture,
+canvas,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
