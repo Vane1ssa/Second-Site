@@ -9,6 +9,9 @@ $('.btn').on('mouseenter', function(e){
 
 // preloader script
 
+$(window).on("load", function(){
+    $("#preloader").fadeOut(1000)
+});
 
 // open mobile meni script
 
